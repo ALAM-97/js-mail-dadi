@@ -6,8 +6,8 @@ document.getElementById("your-number").innerHTML = userDice;
 if (userDice > randomDice) {
     document.getElementById("risultato").innerHTML = "HAI VINTO!";
 } else if (userDice < randomDice) {
-    document.getElementById("risultato").innerHTML = "PAREGGIO!";
-} else {
     document.getElementById("risultato").innerHTML = "HAI PERSO!";
+} else {
+    document.getElementById("risultato").innerHTML = "PAREGGIO!";
 }
 }
